@@ -1,0 +1,470 @@
+.project {
+
+    font-family: 'ProximaNova', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth ;
+
+}
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+body {
+    margin: 0 0 0 0;
+}
+
+.down {
+    width: 100%;
+    height: 1px;
+}
+.project {
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+
+
+
+}
+.head-container {
+    width: 100%;
+    background: url(../img/bg.png) 50% no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 750px;
+}
+.head-menu {
+    width: 95%;
+    margin: auto;
+    margin-top:10px;
+    position: fixed;
+    z-index: 4;
+}
+.menuList, .headImage {
+    display: inline-block;
+}
+.headImage {
+    padding: 20px 10px 10px 10px;
+    margin-left: 8%;
+}
+.menuList {
+    padding: 20px;
+    margin: 5px;
+    float: right;
+    color:  #ffffff;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 60.035px;
+}
+.hd-main__text{
+    margin-top: 450px;
+    text-align: center;
+
+}
+
+.hd-main-tittle {
+    color:  #fefefb;
+    font-size: 71.97px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 60.035px;
+    margin: 0 0 10px 0;
+}
+.hd-main-tittle2 {
+    color:  #fefdfd;
+    font-size: 29.99px;/* Приближение из-за подстановки шрифтов */
+    font-style: italic;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.about-us__container {
+    background-color:  #ebebeb;
+    height: auto;
+}
+.block_center {
+    width: 85%;
+    margin: auto;
+    height: auto;
+}
+.ab-container1 {
+    margin: 80px 30px 30px 0;
+    background: url(../img/bg2.png) 50% no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+
+}
+.ab-container2 {
+  margin:  150px 30px 30px 30px;
+    width: 90%;
+    color:  #665f60;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+
+}
+
+.img-abt {
+    padding: 0 0 50px 0!important;
+    margin:  0 0 0 0;
+
+}
+.text-abt {
+
+    color:  #fefbfc;
+    font-size: 35.94px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 60.035px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+   padding: 40px 0 0 0  ;
+}
+.button_1 {
+    border-width: 1px;
+    border-color:  #7d7a7c;
+    border-style: solid;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+
+}
+.button_1:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: all .01s ease-in!important;
+
+}
+.button_1 p {
+    margin: 0 0 0 0;
+    padding: 10px;
+}
+.bgcol {
+    background-color:  #dbdbdb;
+}
+.col-4 {
+    text-align: center;
+    background: url(../img/bg3.png) 50% no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.col-xs-6 {
+    height: 320px;
+    text-align: center;
+}
+.down-up {
+    margin: 100px 0 0 0;
+}
+.col-xs-6 img {
+    margin: 60px 0 30px 0px;
+}
+.col-xs-6 p {
+    color:  #665f60;
+    font-size: 23.97px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.col-xs-6 em {
+    color:  #665f60;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-style: italic;
+    text-align: center;
+}
+.col-4 img {
+    margin: 80px 0 30px  0;
+}
+.col-4 p {
+    color:  #fefcfe;
+    font-size: 35.94px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+}
+.col-4 em {
+    color:  #fefcfe;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-style: italic;
+    text-align: center
+}
+.col-4 b {
+    color:  #fefcfe;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+.recent-works {
+    background: url(../img/bg4.png) 50% no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.rec__tittle {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.rec__tittle img {
+    padding: 30px;
+}
+.rec__tittle p {
+    color:  #fefcfe;
+    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.slider {
+    width: 60%;
+    margin: auto;
+}
+.slider img {
+    width: 40%;
+}
+
+.button_2 {
+    border-width: 1px;
+    border-color:  #7d7a7c;
+    border-style: solid;
+    width: 15%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+.button_2:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: all .01s ease-in!important;
+
+}
+.button_2 p {
+    margin: 0 0 0 0;
+    padding: 10px;
+    color:  #ffffff;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-style: italic;
+    text-align: center;
+}
+.teame__container {
+    width: 100%;
+    background-color: #ebebeb;
+}
+ .ttt {
+     width: 100px;
+     background-color: white;
+     text-align: center;
+     margin-top: 200px;
+     margin-bottom: 50px;
+     display: inline-block;
+ }
+ .slider-box {
+     margin: auto;
+     width: 80%;
+     margin-bottom: 100px;
+ }
+.hot-prodct {
+    width: 300px;
+    background-color: white;
+    margin: 2%;
+    text-align: center;
+}
+.down4 {
+    z-index: -11;
+}
+.img-team {
+    width: 70%;
+    margin-left: 15%;
+}
+.lit-footer {
+    width: 100%;
+    text-align: center;
+    background-color:  #9f9acf;
+
+}
+.logo-ft {
+    display: inline-block!important;
+    padding: 10px;
+}
+.tt {
+    color:  #9f9acf;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+.nn {
+    color:  #665f60;
+    font-size: 19px;/* Приближение из-за подстановки шрифтов */
+    font-style: italic;
+
+}
+#map {
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    background-color: ;
+}
+.map_box {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.form-container, {
+    background-color: rgb (200, 197, 218, 0,6);
+}
+.form-container1 {
+    width: 45%;
+    margin: auto;
+    position: absolute;
+    top: 380px;
+    left: 25%;
+}
+.form-input1, .form-input2, .form-input3 {
+    text-decoration: none;
+    background-color: rgb(255, 255, 244, 0.4);
+    border-style: none;
+
+}
+.form-input1, .form-input2 {
+    height: 40px;
+    width: 47%;
+    margin: 1%;
+    margin-top: 4%;
+}
+.form-input3 {
+    width: 97%;
+    margin: 1%;
+}
+.form-button {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+    background-color:#9f9acf;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.form-button p {
+    color:  #ffffff;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 19.5px;
+}
+.up-button:active,
+.form-button:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: all .1s ease-in;
+}
+.map-form-container {
+    position: relative;
+}
+
+.up-button {
+    width: 75px;
+    height:60px;
+    background-color:  rgba(159, 154, 207, 0.5);
+    cursor: pointer;
+    position: absolute;
+    top: 700px;
+    left: 80%;
+
+}
+.up-button img {
+    padding: 20px;
+}
+.hide-text, .hide-text2 {
+    float: right;
+    width: 250px;
+    text-align: center;
+    background-color:  rgba(255, 255, 244, 0.4);
+    display: none;
+    padding: 14.5px;
+
+}
+.fuckin_button1 {
+    position: absolute;
+    top: 120px;
+    left: 94%;
+}
+.fuckin_button2 {
+    position: absolute;
+    top:220px;
+    left: 94%;
+}
+.color1, .color2 {
+    width: 100px;
+    display: inline-block;
+    background-color: #9f9acf;
+    padding: 30px;
+    height: 100px;
+
+
+}
+
+.fuckin_button1:hover {
+    left: 75%;
+    transition: all .1s ease-in;
+}
+.fuckin_button1:hover .hide-text {
+    display: block;
+    cursor: pointer;
+    transition: all .9s ease-in;
+}
+.fuckin_button2:hover {
+    left: 75%;
+    transition: all .1s ease-in;
+}
+.fuckin_button2:hover .hide-text2 {
+    display: block;
+    cursor: pointer;
+    transition: all .9s ease-in;
+}
+.fotter-box {
+    background-color:  #9f9acf;
+    width: 100%;
+    height: 130px;
+}
+.last-text {
+    margin-top: 50px;
+}
+.blablabla {
+    margin-top: 50px;
+}
+.blablabla img {
+    padding: 0 20px 0 20px;
+}
+.last-text {
+    color:  #ffffff;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
